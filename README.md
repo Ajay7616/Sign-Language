@@ -45,7 +45,9 @@ This project involves detecting hand signs using a Keras model trained with Teac
 ### 1. Install the Necessary Libraries
 
 Ensure you have the required libraries by running:
+
   pip install cvzone flask numpy mediapipe
+  
 
 ### 2. Collect Data
 
@@ -58,17 +60,21 @@ Ensure you have the required libraries by running:
 ### 4. Run the Application
 
 Start the Flask application with:
+
   python app.py
+
   Access the web interface to visualize hand sign detection by navigating to http://localhost:5000 in your web browser.
 
 ### 5. Test Without Web Interface
 
 To test the model in a command-line environment, run:
+
   python test.py
 
 ### 6. Demo with MediaPipe
 
 For a demo using MediaPipe for hand sign detection, run:
+
   python demo.py
 
 Ensure the paths in collectdata.py and other scripts are correctly set to your project directories.
